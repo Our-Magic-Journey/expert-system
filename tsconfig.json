@@ -1,6 +1,10 @@
 {
     "compilerOptions": {
-        "module": "commonjs"
+        "jsx": "react-jsxdev",
+        "jsxImportSource": "react",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "lib": ["ES2023", "DOM"]
     },
     "exclude": [
         "node_modules"

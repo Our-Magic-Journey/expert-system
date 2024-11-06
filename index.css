@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-flow__node-editableNode {
+  padding: 0px;
+  border-radius: var(--xy-node-border-radius, var(--xy-node-border-radius-default));
+  width: 150px;
+  font-size: 12px;
+  color: var(--xy-node-color, var(--xy-node-color-default));
+  text-align: center;
+  border: var(--xy-node-border, var(--xy-node-border-default));
+  background-color: var(--xy-node-background-color, var(--xy-node-background-color-default));
+}
+
+.react-flow__node-editableNode.selectable.selected, .react-flow__node-editableNode.selectable:focus, .react-flow__node-editableNode.selectable:focus-visible {
+  border-color: rgb(250, 204, 21);
+}
