@@ -22,6 +22,7 @@
     "react-archer": "^4.4.0",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.27.0",
+    "react-to-text": "^2.0.1",
     "react-zoomable-ui": "^0.11.0",
     "use-immer": "^0.10.0"
   }

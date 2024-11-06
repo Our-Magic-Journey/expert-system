@@ -24,6 +24,7 @@ import {
 import '@xyflow/react/dist/style.css';
 import { nanoid } from "nanoid";
 import { EditableNode } from "../ui/editor/editable-node";
+import { EditableEdge } from "../ui/editor/editable-edge";
 
 function generate(elements: number): Node {
   let children = [];
@@ -69,6 +70,7 @@ const getLayoutedElements = (nodes: FlowNode[], edges: FlowEdge[]) => {
 };
 
 const nodeTypes = { editableNode: EditableNode };
+const edgeTypes = { editableEdge: EditableEdge };
 
 export const EditorPage = () => {
   const initialTree = unpackTree(generate(5));
@@ -131,7 +133,7 @@ export const EditorPage = () => {
         setNodes((nodes) => [...nodes, {
           id: node,
           data: { label: "Answer", edit: true },
-          position: { x: 0, y: 0 },          
+          position: { x: selected.position.x, y: selected.position.y },          
           type: "editableNode"
         }]);
 
@@ -140,7 +142,8 @@ export const EditorPage = () => {
           source: selected.id,
           target: node,
           label: "Question", 
-          markerEnd: { type: MarkerType.ArrowClosed }
+          markerEnd: { type: MarkerType.ArrowClosed },
+          type: "editableEdge"
         }, edges));
         
         setLayout(0);
@@ -182,6 +185,7 @@ export const EditorPage = () => {
           nodes={nodes}
           edges={edges}
           nodeTypes={nodeTypes}
+          edgeTypes={edgeTypes}
           colorMode="dark"
           proOptions={{hideAttribution: true}}
           onNodesChange={onNodesChange}

@@ -2,7 +2,7 @@ import { MarkerType } from "@xyflow/react";
 import { Node } from "./node";
 
 export type FlowEdge = { id: string, type?: string, source: string, target: string, label: string, markerEnd: { type: MarkerType } };
-export type FlowNode = { id: string, type?: string, data: { label: string, edit: boolean }, position: { x: number, y: number }, measured?: { width: number, height: number } };
+export type FlowNode = { id: string, type?: string, data: { label: string }, position: { x: number, y: number }, measured?: { width: number, height: number } };
 
 export function packTree(edges: FlowEdge[], nodes: FlowNode[]): Node {
   throw "unimplemented";
@@ -14,7 +14,7 @@ export function unpackTree(node: Node): { edges: FlowEdge[], nodes: FlowNode[] }
 
   nodes.push({ 
     id: node.index,
-    data: { label: node.text, edit: false },
+    data: { label: node.text },
     position: { x: 0, y: 0 },
     type: 'editableNode',
   })
@@ -25,7 +25,8 @@ export function unpackTree(node: Node): { edges: FlowEdge[], nodes: FlowNode[] }
       target: branch.target.index,
       source: node.index,
       label: branch.text,
-      markerEnd: { type: MarkerType.ArrowClosed }
+      markerEnd: { type: MarkerType.ArrowClosed },
+      type: 'editableEdge',
     })
 
     let subTree = unpackTree(branch.target);

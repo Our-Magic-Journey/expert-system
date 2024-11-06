@@ -1372,6 +1372,7 @@ __metadata:
     react-archer: "npm:^4.4.0"
     react-dom: "npm:^18.3.1"
     react-router-dom: "npm:^6.27.0"
+    react-to-text: "npm:^2.0.1"
     react-zoomable-ui: "npm:^0.11.0"
     tailwindcss: "npm:^3.4.14"
     use-immer: "npm:^0.10.0"
@@ -2269,6 +2270,16 @@ __metadata:
   peerDependencies:
     react: ">=16.8"
   checksum: 10c0/440d6ee00890cec92a0c2183164149fbb96363efccf52bb132a964f44e51aec2f4b5a0520c67f6f17faddaa4097090fd76f7efe58263947532fceeb11dd4cdf3
+  languageName: node
+  linkType: hard
+
+"react-to-text@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "react-to-text@npm:2.0.1"
+  peerDependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: 10c0/3c0ce17c0aabbf28a2794c01bdad125c84ab070ade0d8414884e280bf83cd6a9bf21368de4a321b92f69388421e3c486db2787eb095aeee2209689b740a93843
   languageName: node
   linkType: hard
 

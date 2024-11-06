@@ -16,3 +16,7 @@
 .react-flow__node-editableNode.selectable.selected, .react-flow__node-editableNode.selectable:focus, .react-flow__node-editableNode.selectable:focus-visible {
   border-color: rgb(250, 204, 21);
 }
+
+.react-flow__edge-editableEdge.selected .react-flow__edge-path, .react-flow__edge-editableEdge.selectable:focus .react-flow__edge-path, .react-flow__edge-editableEdge.selectable:focus-visible .react-flow__edge-path {
+  stroke: rgb(250, 204, 21) !important;
+}

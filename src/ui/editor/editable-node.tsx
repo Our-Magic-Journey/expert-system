@@ -2,13 +2,13 @@ import { ChangeEventHandler, memo, useEffect, useRef, useState } from 'react';
 import { Handle, NodeProps, Position, useEdges, useReactFlow } from '@xyflow/react';
 
 type Props = {
-  data: { label: string, edit: boolean },
+  data: { label: string },
   isConnectable?: boolean,
 } & NodeProps
 
 export const EditableNode = memo(({ id, data, isConnectable }: Props) => {
   const { setNodes } = useReactFlow();
-  const [editMode, setEditMode] = useState(data.edit);
+  const [editMode, setEditMode] = useState(false);
   const inputRef = useRef<HTMLInputElement>();
 
   const updateData: ChangeEventHandler<HTMLInputElement> = (e) => {
@@ -53,14 +53,15 @@ export const EditableNode = memo(({ id, data, isConnectable }: Props) => {
           ref={inputRef}
           value={data.label} 
           onChange={updateData}
-          className='bg-transparent w-full px-1 text-white border border-yellow-400 focus:border-yellow-400' />
+          className='bg-transparent w-full px-1 text-white border border-yellow-400 focus:border-yellow-400 text-xs' 
+        />
       )}
 
-      {(!editMode && (
-        <div>
+      {!editMode && (
+        <div className='text-white text-xs'>
           {data.label} 
         </div>
-      ))}
+      )}
 
       <Handle
         type="source"
