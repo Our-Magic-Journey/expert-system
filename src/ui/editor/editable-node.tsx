@@ -1,8 +1,8 @@
-import { ChangeEventHandler, memo, useEffect, useRef, useState } from 'react';
+import { ChangeEvent, ChangeEventHandler, KeyboardEventHandler, memo, useEffect, useRef, useState } from 'react';
 import { Handle, NodeProps, Position, useEdges, useReactFlow } from '@xyflow/react';
 
 type Props = {
-  data: { label: string },
+  data: { label: string, root?: boolean },
   isConnectable?: boolean,
 } & NodeProps
 
@@ -33,6 +33,13 @@ export const EditableNode = memo(({ id, data, isConnectable }: Props) => {
     setEditMode(editMode => !editMode);
   }
 
+  const handleKeyUp: KeyboardEventHandler<HTMLInputElement> = (e) => {
+    if (e.key === "Enter") {
+      setEditMode(false);
+      e.stopPropagation();
+    }
+  }
+
   const focus = () => {
     if (inputRef.current) {
       inputRef.current.focus();
@@ -41,11 +48,14 @@ export const EditableNode = memo(({ id, data, isConnectable }: Props) => {
 
   return (
     <div className='w-full h-full p-2' onClick={focus} onDoubleClick={handleDBClick}>
-      <Handle
-        type="target"
-        position={Position.Top}
-        isConnectable={isConnectable}
-      />
+      
+      {!data.root && (
+        <Handle
+          type="target"
+          position={Position.Top}
+          isConnectable={isConnectable}
+        />
+      )}
 
       {editMode && (
         <input 
@@ -53,6 +63,7 @@ export const EditableNode = memo(({ id, data, isConnectable }: Props) => {
           ref={inputRef}
           value={data.label} 
           onChange={updateData}
+          onKeyUp={handleKeyUp}
           className='bg-transparent w-full px-1 text-white border border-yellow-400 focus:border-yellow-400 text-xs' 
         />
       )}

@@ -1,5 +1,5 @@
 import { BaseEdge, EdgeLabelRenderer, EdgeProps, getSimpleBezierPath, getStraightPath, useReactFlow } from '@xyflow/react';
-import { ChangeEventHandler, useState } from 'react';
+import { ChangeEventHandler, KeyboardEventHandler, useState } from 'react';
 import reactToText from 'react-to-text';
  
 type Props = {
@@ -35,6 +35,13 @@ export function EditableEdge({ id, sourceX, sourceY, targetX, targetY, label }: 
     setEditMode(editMode => !editMode);
   }
 
+  const handleKeyUp: KeyboardEventHandler<HTMLInputElement> = (e) => {
+    if (e.key === "Enter") {
+      setEditMode(false);
+      e.stopPropagation();
+    }
+  }
+
   return (
     <>
       <BaseEdge id={id} path={edgePath} />
@@ -46,6 +53,7 @@ export function EditableEdge({ id, sourceX, sourceY, targetX, targetY, label }: 
             value={reactToText(label)} 
             onChange={updateData}
             onDoubleClick={handleDBClick}
+            onKeyUp={handleKeyUp}
             className='absolute text-2xs bg-transparent w-20 px-1 text-white border border-yellow-400 focus:border-yellow-400 z-20' 
           />
         )}

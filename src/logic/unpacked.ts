@@ -2,13 +2,14 @@ import { MarkerType } from "@xyflow/react";
 import { Node } from "./node";
 
 export type FlowEdge = { id: string, type?: string, source: string, target: string, label: string, markerEnd: { type: MarkerType } };
-export type FlowNode = { id: string, type?: string, data: { label: string }, position: { x: number, y: number }, measured?: { width: number, height: number } };
+export type FlowNode = { id: string, type?: string, data: { label: string, root?: boolean }, position: { x: number, y: number }, measured?: { width: number, height: number } };
+export type UnpackedTree = { edges: FlowEdge[], nodes: FlowNode[], root: string }
 
 export function packTree(edges: FlowEdge[], nodes: FlowNode[]): Node {
   throw "unimplemented";
 }
 
-export function unpackTree(node: Node): { edges: FlowEdge[], nodes: FlowNode[] } {
+export function unpackTree(node: Node): UnpackedTree {
   let edges: FlowEdge[] = [];
   let nodes: FlowNode[] = [];
 
@@ -17,7 +18,7 @@ export function unpackTree(node: Node): { edges: FlowEdge[], nodes: FlowNode[] }
     data: { label: node.text },
     position: { x: 0, y: 0 },
     type: 'editableNode',
-  })
+  });
 
   for (let branch of node.children) {
     edges.push({
@@ -35,5 +36,11 @@ export function unpackTree(node: Node): { edges: FlowEdge[], nodes: FlowNode[] }
     nodes.push(...subTree.nodes.filter(node => !nodes.some(({ id }) => id === node.id)));
   }
 
-  return { edges, nodes };
+  console.log(node.index)
+
+  return { edges, nodes, root: node.index };
+}
+
+export function markRoot({ edges, nodes, root }: UnpackedTree): UnpackedTree {
+  return { edges, root, nodes: nodes.map(node => node.id === root ? { ...node, data: { ...node.data, root: true }} : node)}
 }

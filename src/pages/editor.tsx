@@ -3,7 +3,7 @@ import { Title } from "../ui/title";
 import { useCallback, useEffect, useLayoutEffect, useMemo, useState } from 'react';
 import { Node } from '../logic/node';
 import { useImmer } from "use-immer";
-import { unpackTree, FlowEdge, FlowNode } from '../logic/unpacked';
+import { unpackTree, FlowEdge, FlowNode, markRoot } from '../logic/unpacked';
 import * as Dagre from '@dagrejs/dagre';
 import { Branch } from '../logic/branch';
 import {
@@ -73,11 +73,11 @@ const nodeTypes = { editableNode: EditableNode };
 const edgeTypes = { editableEdge: EditableEdge };
 
 export const EditorPage = () => {
-  const initialTree = unpackTree(generate(5));
+  const initialTree = useMemo(() => markRoot(unpackTree(generate(5))), []);
 
-  const { fitView } = useReactFlow();
   const [nodes, setNodes, onNodesChange] = useNodesState(initialTree.nodes);
   const [edges, setEdges, onEdgesChange] = useEdgesState(initialTree.edges);
+  const root = useMemo(() => nodes.find(node => node.id === initialTree.root), [nodes]);
   const [selectedNodes, setSelectedNodes] = useState<string[]>([]);
   const [selectedEdges, setSelectedEdges] = useState<string[]>([]);
   const [layout, setLayout] = useState(0);
@@ -109,10 +109,6 @@ export const EditorPage = () => {
     setSelectedNodes(nodes.map((node: FlowNode) => node.id));
     setSelectedEdges(edges.map((edge: FlowEdge) => edge.id));
   }, []);
-
-  const onDoubleClick = useCallback(() => {
-
-  }, [])
 
   useEffect(() => {
     const event = (e: KeyboardEvent) => {
@@ -150,6 +146,13 @@ export const EditorPage = () => {
       }
 
       else if (e.key === "Delete") {
+        console.log(initialTree, root, nodes);
+
+        if (selectedNodes.includes(root.id)) {
+          return;
+        }
+
+
         setEdges((edges) => edges.filter((edge) => !selectedEdges.includes(edge.id)));
         setNodes((nodes) => nodes.filter((node) => !selectedNodes.includes(node.id))); 
         setLayout(0);
@@ -195,6 +198,7 @@ export const EditorPage = () => {
           onSelectionChange={onSelectionChange}
           nodesDraggable={false} 
           zoomOnDoubleClick={false}
+          deleteKeyCode={[]}
         >
           <Controls />
           <MiniMap />
