@@ -1,30 +1,16 @@
 import { Navigation } from "../ui/navigation";
 import { Title } from "../ui/title";
-import { useCallback, useEffect, useLayoutEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Node } from '../logic/node';
-import { useImmer } from "use-immer";
 import { unpackTree, FlowEdge, FlowNode, markRoot } from '../logic/unpacked';
-import * as Dagre from '@dagrejs/dagre';
 import { Branch } from '../logic/branch';
-import {
-  ReactFlow,
-  MiniMap,
-  Controls,
-  Background,
-  useNodesState,
-  useEdgesState,
-  addEdge,
-  useReactFlow,
-  reconnectEdge,
-  useOnSelectionChange,
-  Connection,
-  MarkerType,
-} from '@xyflow/react';
-
-import '@xyflow/react/dist/style.css';
+import { ReactFlow, MiniMap, Controls, Background, useNodesState, useEdgesState, addEdge, reconnectEdge, Connection, MarkerType} from '@xyflow/react';
+import * as Dagre from '@dagrejs/dagre';
 import { nanoid } from "nanoid";
+
 import { EditableNode } from "../ui/editor/editable-node";
 import { EditableEdge } from "../ui/editor/editable-edge";
+import '@xyflow/react/dist/style.css';
 
 function generate(elements: number): Node {
   let children = [];
@@ -183,7 +169,7 @@ export const EditorPage = () => {
         ]}
       />  
       
-      <div className="border-yellow-400 border p-1 m-1 w-full min-h-full relative">
+      <div className="border border-yellow-400 p-1 m-1 w-full min-h-full relative">
         <ReactFlow
           nodes={nodes}
           edges={edges}
