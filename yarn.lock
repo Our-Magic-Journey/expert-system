@@ -698,13 +698,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/d3-hierarchy@npm:^3":
-  version: 3.1.7
-  resolution: "@types/d3-hierarchy@npm:3.1.7"
-  checksum: 10c0/873711737d6b8e7b6f1dda0bcd21294a48f75024909ae510c5d2c21fad2e72032e0958def4d9f68319d3aaac298ad09c49807f8bfc87a145a82693b5208613c7
-  languageName: node
-  linkType: hard
-
 "@types/d3-interpolate@npm:*":
   version: 3.0.4
   resolution: "@types/d3-interpolate@npm:3.0.4"
@@ -744,6 +737,15 @@ __metadata:
   version: 1.0.6
   resolution: "@types/estree@npm:1.0.6"
   checksum: 10c0/cdfd751f6f9065442cd40957c07fd80361c962869aa853c1c2fd03e101af8b9389d8ff4955a43a6fcfa223dd387a089937f95be0f3eec21ca527039fd2d9859a
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^22.9.0":
+  version: 22.9.0
+  resolution: "@types/node@npm:22.9.0"
+  dependencies:
+    undici-types: "npm:~6.19.8"
+  checksum: 10c0/3f46cbe0a49bab4ba30494025e4c8a6e699b98ac922857aa1f0209ce11a1313ee46e6808b8f13fe5b8b960a9d7796b77c8d542ad4e9810e85ef897d5593b5d51
   languageName: node
   linkType: hard
 
@@ -1130,13 +1132,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"d3-hierarchy@npm:^3.1.2":
-  version: 3.1.2
-  resolution: "d3-hierarchy@npm:3.1.2"
-  checksum: 10c0/6dcdb480539644aa7fc0d72dfc7b03f99dfbcdf02714044e8c708577e0d5981deb9d3e99bbbb2d26422b55bcc342ac89a0fa2ea6c9d7302e2fc0951dd96f89cf
-  languageName: node
-  linkType: hard
-
 "d3-interpolate@npm:1 - 3":
   version: 3.0.1
   resolution: "d3-interpolate@npm:3.0.1"
@@ -1357,26 +1352,22 @@ __metadata:
   resolution: "expert-system@workspace:."
   dependencies:
     "@dagrejs/dagre": "npm:^1.1.4"
-    "@types/d3-hierarchy": "npm:^3"
+    "@types/node": "npm:^22.9.0"
     "@types/react": "npm:^18"
     "@types/react-dom": "npm:^18"
     "@vitejs/plugin-react": "npm:^4.3.3"
     "@xyflow/react": "npm:^12.3.4"
     autoprefixer: "npm:^10.4.20"
     clsx: "npm:^2.1.1"
-    d3-hierarchy: "npm:^3.1.2"
-    immer: "npm:^10.1.1"
     nanoid: "npm:^5.0.8"
     postcss: "npm:^8.4.47"
     react: "npm:^18.3.1"
-    react-archer: "npm:^4.4.0"
     react-dom: "npm:^18.3.1"
     react-router-dom: "npm:^6.27.0"
     react-to-text: "npm:^2.0.1"
-    react-zoomable-ui: "npm:^0.11.0"
     tailwindcss: "npm:^3.4.14"
-    use-immer: "npm:^0.10.0"
     vite: "npm:^5.4.10"
+    vite-plugin-electron: "npm:^0.28.8"
   languageName: unknown
   linkType: soft
 
@@ -1534,13 +1525,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hammerjs@npm:^2.0.8":
-  version: 2.0.8
-  resolution: "hammerjs@npm:2.0.8"
-  checksum: 10c0/5c95e5774b5ea49492cb3fa8f1949aea67048a0b84af33acb555e7139abfcf3c83aca2b83e0c5008755bc230166df7b5e469d1e3eb6746c48f215f3672609fed
-  languageName: node
-  linkType: hard
-
 "hasown@npm:^2.0.2":
   version: 2.0.2
   resolution: "hasown@npm:2.0.2"
@@ -1583,13 +1567,6 @@ __metadata:
   dependencies:
     safer-buffer: "npm:>= 2.1.2 < 3.0.0"
   checksum: 10c0/98102bc66b33fcf5ac044099d1257ba0b7ad5e3ccd3221f34dd508ab4070edff183276221684e1e0555b145fce0850c9f7d2b60a9fcac50fbb4ea0d6e845a3b1
-  languageName: node
-  linkType: hard
-
-"immer@npm:^10.1.1":
-  version: 10.1.1
-  resolution: "immer@npm:10.1.1"
-  checksum: 10c0/b749e10d137ccae91788f41bd57e9387f32ea6d6ea8fd7eb47b23fd7766681575efc7f86ceef7fe24c3bc9d61e38ff5d2f49c2663b2b0c056e280a4510923653
   languageName: node
   linkType: hard
 
@@ -2209,20 +2186,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-archer@npm:^4.4.0":
-  version: 4.4.0
-  resolution: "react-archer@npm:4.4.0"
-  dependencies:
-    react-fast-compare: "npm:^2.0.4"
-    resize-observer-polyfill: "npm:1.5.0"
-  peerDependencies:
-    "@types/react": ^16.8.8 || ^17 || ^18
-    prop-types: ^15.6.2
-    react: ^16.9.0 || ^17 || ^18
-  checksum: 10c0/00f3f88d584f044074098d28767ee64fd370c5785c36dc5595cea585e1e22633455bd53fd2cd26668ba5ff0aeca426923c1532fadfbbb869721ace76b1de6ec7
-  languageName: node
-  linkType: hard
-
 "react-dom@npm:^18.3.1":
   version: 18.3.1
   resolution: "react-dom@npm:18.3.1"
@@ -2232,13 +2195,6 @@ __metadata:
   peerDependencies:
     react: ^18.3.1
   checksum: 10c0/a752496c1941f958f2e8ac56239172296fcddce1365ce45222d04a1947e0cc5547df3e8447f855a81d6d39f008d7c32eab43db3712077f09e3f67c4874973e85
-  languageName: node
-  linkType: hard
-
-"react-fast-compare@npm:^2.0.4":
-  version: 2.0.4
-  resolution: "react-fast-compare@npm:2.0.4"
-  checksum: 10c0/f0300c677e95198b5f993cbb8a983dab09586157dc678f9e2b5b29ff941b6677a8776fbbdc425ce102fad86937e36bb45cfcfd797f006270b97ccf287ebfb885
   languageName: node
   linkType: hard
 
@@ -2283,18 +2239,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-zoomable-ui@npm:^0.11.0":
-  version: 0.11.0
-  resolution: "react-zoomable-ui@npm:0.11.0"
-  dependencies:
-    hammerjs: "npm:^2.0.8"
-    ts-invariant: "npm:^0.10.3"
-  peerDependencies:
-    react: "*"
-  checksum: 10c0/144c7f0857fb18f5b2292e7d46f923a818f43106cd1e2dd544e4b5686e0a683bd5737548dc65635c031099454e1f32027f5e1edf341b49ce831de70c22de33da
-  languageName: node
-  linkType: hard
-
 "react@npm:^18.3.1":
   version: 18.3.1
   resolution: "react@npm:18.3.1"
@@ -2319,13 +2263,6 @@ __metadata:
   dependencies:
     picomatch: "npm:^2.2.1"
   checksum: 10c0/6fa848cf63d1b82ab4e985f4cf72bd55b7dcfd8e0a376905804e48c3634b7e749170940ba77b32804d5fe93b3cc521aa95a8d7e7d725f830da6d93f3669ce66b
-  languageName: node
-  linkType: hard
-
-"resize-observer-polyfill@npm:1.5.0":
-  version: 1.5.0
-  resolution: "resize-observer-polyfill@npm:1.5.0"
-  checksum: 10c0/5112173d546f4c6c74b39dc53544544a6358d758abd1458bf70411de0601f3a3ca3e10e8dde1fecf4aaa282684ef5a80667d23337d87ff1b472464c4129bc040
   languageName: node
   linkType: hard
 
@@ -2701,19 +2638,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-invariant@npm:^0.10.3":
-  version: 0.10.3
-  resolution: "ts-invariant@npm:0.10.3"
-  dependencies:
-    tslib: "npm:^2.1.0"
-  checksum: 10c0/2fbc178d5903d325ee0b87fad38827eac11888b6e86979b06754fd4bcdcf44c2a99b8bcd5d59d149c0464ede55ae810b02a2aee6835ad10efe4dd0e22efd68c0
-  languageName: node
-  linkType: hard
-
-"tslib@npm:^2.1.0":
-  version: 2.8.1
-  resolution: "tslib@npm:2.8.1"
-  checksum: 10c0/9c4759110a19c53f992d9aae23aac5ced636e99887b51b9e61def52611732872ff7668757d4e4c61f19691e36f4da981cd9485e869b4a7408d689f6bf1f14e62
+"undici-types@npm:~6.19.8":
+  version: 6.19.8
+  resolution: "undici-types@npm:6.19.8"
+  checksum: 10c0/078afa5990fba110f6824823ace86073b4638f1d5112ee26e790155f481f2a868cc3e0615505b6f4282bdf74a3d8caad715fd809e870c2bb0704e3ea6082f344
   languageName: node
   linkType: hard
 
@@ -2749,16 +2677,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"use-immer@npm:^0.10.0":
-  version: 0.10.0
-  resolution: "use-immer@npm:0.10.0"
-  peerDependencies:
-    immer: ">=8.0.0"
-    react: ^16.8.0 || ^17.0.1 || ^18.0.0
-  checksum: 10c0/67dcae179c97819c5dba3c598f28d3118ce88ea1fe7bdd5e07fcce945e468125786a20bdfaa90c429374a1cc8f6edd4b3900b3e5726ccd35ea12696a7505436b
-  languageName: node
-  linkType: hard
-
 "use-sync-external-store@npm:1.2.2":
   version: 1.2.2
   resolution: "use-sync-external-store@npm:1.2.2"
@@ -2772,6 +2690,18 @@ __metadata:
   version: 1.0.2
   resolution: "util-deprecate@npm:1.0.2"
   checksum: 10c0/41a5bdd214df2f6c3ecf8622745e4a366c4adced864bc3c833739791aeeeb1838119af7daed4ba36428114b5c67dcda034a79c882e97e43c03e66a4dd7389942
+  languageName: node
+  linkType: hard
+
+"vite-plugin-electron@npm:^0.28.8":
+  version: 0.28.8
+  resolution: "vite-plugin-electron@npm:0.28.8"
+  peerDependencies:
+    vite-plugin-electron-renderer: "*"
+  peerDependenciesMeta:
+    vite-plugin-electron-renderer:
+      optional: true
+  checksum: 10c0/a7fda7800232f1930cf4f0d060cc618b12416778ef184425db68471d26014cd8631bc5fd60908b1946be17321d06647cc06351332b9d3f7a4a7e910de1a28325
   languageName: node
   linkType: hard
 
