@@ -31,18 +31,6 @@ function loadState(): UnpackedTree {
   return { edges: [], nodes: [{ id: root, data: { label: "Start", root: true }, position: { x: 0, y: 0 }, type: "editableNode"}], root }
 }
 
-function generate(elements: number): Node {
-  let children = [];
-  
-  if (elements > 0) {
-    children.push(new Branch("Tak jak pan jezus powiedział!", generate(elements - 1)));
-  }
-
-  children.push(new Branch("Nie wiem!", new Node("Koniec!")));  
-
-  return new Node("A jak pan jezus powiedział?", ...children);
-}
-
 const getLayoutedElements = (nodes: FlowNode[], edges: FlowEdge[]) => {
   const g = new Dagre.graphlib.Graph().setDefaultEdgeLabel(() => ({}));
   g.setGraph({ rankdir: 'TB' });
@@ -78,11 +66,11 @@ const nodeTypes = { editableNode: EditableNode };
 const edgeTypes = { editableEdge: EditableEdge };
 
 export const EditorPage = () => {
-  const initialTree = useMemo(loadState, []); //useMemo(() => markRoot(unpackTree(generate(5))), []);
+  const initialTree = useMemo(loadState, []);
 
   const [nodes, setNodes, onNodesChange] = useNodesState(initialTree.nodes);
   const [edges, setEdges, onEdgesChange] = useEdgesState(initialTree.edges);
-  const root = useMemo(() => nodes.find(node => node.id === initialTree.root), [nodes]);
+  const [root, setRoot] = useState(initialTree.root);
   const [selectedNodes, setSelectedNodes] = useState<string[]>([]);
   const [selectedEdges, setSelectedEdges] = useState<string[]>([]);
   const [layout, setLayout] = useState(0);
@@ -115,7 +103,7 @@ export const EditorPage = () => {
     setSelectedEdges(edges.map((edge: FlowEdge) => edge.id));
   }, []);
 
-  useEffect(() => () => saveState({ edges, nodes, root: root.id }), [root, edges, nodes]);
+  useEffect(() => () => saveState({ edges, nodes, root }), [root, edges, nodes]);
 
   useEffect(() => {
     const event = (e: KeyboardEvent) => {
@@ -155,7 +143,7 @@ export const EditorPage = () => {
       else if (e.key === "Delete") {
         console.log(initialTree, root, nodes);
 
-        if (selectedNodes.includes(root.id)) {
+        if (selectedNodes.includes(root)) {
           return;
         }
 
@@ -186,6 +174,53 @@ export const EditorPage = () => {
     setLayout(layout => layout + 1);
   }, [edges, nodes, updateLayout, layout])
 
+  const handleExport = () => {
+    const blob = new Blob([JSON.stringify({ edges, nodes, root })], {type: 'text/json'});
+    const link = document.createElement('a');
+    link.style.display = "none";
+    link.href = window.URL.createObjectURL(blob);
+    link.download = "ExpertSystemData.json";
+
+    document.body.appendChild(link);
+    link.click();        
+    document.body.removeChild(link);
+  }
+
+  const handleImport = () => {
+    const input = document.createElement('input');
+    input.style.display = "none";
+    input.type = "file";
+
+    input.addEventListener("change", () => {
+      const file = input.files[0]; 
+      
+      var reader = new FileReader();
+
+      reader.addEventListener("load", () => {
+        try {
+          let data = JSON.parse(reader.result as string);
+
+          if ("nodes" in data && "edges" in data && "root" in data) {
+            setNodes(data.nodes);
+            setRoot(data.root);
+            setEdges(data.edges);
+
+            return;
+          }
+        }
+        catch {}
+
+        alert("Incorrect data file!");
+      })
+      
+      reader.readAsText(file,'UTF-8');
+    });
+
+    document.body.appendChild(input);
+    input.click();        
+    document.body.removeChild(input);
+  }
+
   return (
     <div className="bg-black w-screen h-screen p-10 flex flex-col justify-center items-stretch">
       <Title>Editor Page</Title>
@@ -193,6 +228,8 @@ export const EditorPage = () => {
       <Navigation 
         items={[
           ["/quiz", "Go to quiz"],
+          ["Export", handleExport],
+          ["Import", handleImport],
           ["/", "Go to main page"],
         ]}
       />  
