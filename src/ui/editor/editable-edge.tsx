@@ -1,20 +1,38 @@
-import { BaseEdge, EdgeLabelRenderer, EdgeProps, getSimpleBezierPath, getStraightPath, useReactFlow } from '@xyflow/react';
+import { BaseEdge, EdgeLabelRenderer, EdgeProps, getSimpleBezierPath, getSmoothStepPath, getBezierPath, getStraightPath, useReactFlow } from '@xyflow/react';
 import { ChangeEventHandler, KeyboardEventHandler, useState } from 'react';
 import reactToText from 'react-to-text';
  
 type Props = {
 } & EdgeProps
 
-export function EditableEdge({ id, sourceX, sourceY, targetX, targetY, label }: Props) {
+function getPath(sourceX: number, sourceY: number, targetX: number, targetY: number, source: string, target: string ) {
+  if (source !== target) {
+    return getSimpleBezierPath({ sourceX, sourceY, targetX, targetY });
+  }
+
+  const width = 70;
+  const edgePath = `
+    M ${targetX} ${Math.min(sourceY, targetY)}
+    q 0 -10 10 -10 
+    l ${width} 0         
+    q 10 0 10 10   
+    l 0 ${Math.abs(sourceY - targetY)}         
+    q 0 10 -10 10  
+    l ${-width} 0        
+    q -10 0 -10 -10
+    l 0 -10
+  `;
+  const labelX = sourceX + 45;
+  const labelY = sourceY + 10;
+
+  return [edgePath, labelX, labelY] as const;
+}
+
+export function EditableEdge({ id, sourceX, sourceY, targetX, targetY, label, source, target }: Props) {
   const [editMode, setEditMode] = useState(false);
   const { setEdges } = useReactFlow();
 
-  const [edgePath, labelX, labelY] = getSimpleBezierPath({
-    sourceX,
-    sourceY,
-    targetX,
-    targetY,
-  });
+  const [edgePath, labelX, labelY] = getPath(sourceX, sourceY, targetX, targetY, source, target);
 
   const updateData: ChangeEventHandler<HTMLInputElement> = (e) => {
     setEdges((edges) =>

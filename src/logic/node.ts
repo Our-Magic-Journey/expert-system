@@ -20,16 +20,12 @@ export class Node {
     }
   }
 
-  public isFinalAnswer(): boolean {
-    return this.children.length === 0;
+  public addChildren(...children: Branch[]) {
+    this.children.push(...children);
   }
 
-  public length() {
-    if (this.children.length === 0) {
-      return 1;
-    }
-
-    return Math.max(...this.children.map(branch => branch.target.length() + 1))
+  public isFinalAnswer(): boolean {
+    return this.children.length === 0;
   }
 
   public getLayer() {

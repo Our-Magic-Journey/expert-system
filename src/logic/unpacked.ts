@@ -1,12 +1,23 @@
 import { MarkerType } from "@xyflow/react";
 import { Node } from "./node";
+import { Branch } from "./branch";
 
 export type FlowEdge = { id: string, type?: string, source: string, target: string, label: string, markerEnd: { type: MarkerType } };
 export type FlowNode = { id: string, type?: string, data: { label: string, root?: boolean }, position: { x: number, y: number }, measured?: { width: number, height: number } };
 export type UnpackedTree = { edges: FlowEdge[], nodes: FlowNode[], root: string }
 
-export function packTree(edges: FlowEdge[], nodes: FlowNode[]): Node {
-  throw "unimplemented";
+export function packTree(data: UnpackedTree): Node {
+  let nodes: {[ key: string ]: Node} = {};
+
+  for (let node of data.nodes) {
+    nodes[node.id] = new Node(node.data.label);
+  }
+
+  for (let edge of data.edges) {
+    nodes[edge.source]?.addChildren(new Branch(edge.label, nodes[edge.target]));
+  }
+
+  return nodes[data.root];
 }
 
 export function unpackTree(node: Node): UnpackedTree {
@@ -35,8 +46,6 @@ export function unpackTree(node: Node): UnpackedTree {
     edges.push(...subTree.edges.filter(edge => !edges.some(({ id }) => id === edge.id)));
     nodes.push(...subTree.nodes.filter(node => !nodes.some(({ id }) => id === node.id)));
   }
-
-  console.log(node.index)
 
   return { edges, nodes, root: node.index };
 }

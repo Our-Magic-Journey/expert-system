@@ -2,7 +2,7 @@ import { Navigation } from "../ui/navigation";
 import { Title } from "../ui/title";
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Node } from '../logic/node';
-import { unpackTree, FlowEdge, FlowNode, markRoot } from '../logic/unpacked';
+import { unpackTree, FlowEdge, FlowNode, markRoot, UnpackedTree } from '../logic/unpacked';
 import { Branch } from '../logic/branch';
 import { ReactFlow, MiniMap, Controls, Background, useNodesState, useEdgesState, addEdge, reconnectEdge, Connection, MarkerType} from '@xyflow/react';
 import * as Dagre from '@dagrejs/dagre';
@@ -11,6 +11,25 @@ import { nanoid } from "nanoid";
 import { EditableNode } from "../ui/editor/editable-node";
 import { EditableEdge } from "../ui/editor/editable-edge";
 import '@xyflow/react/dist/style.css';
+
+function saveState(tree: UnpackedTree) {
+  localStorage.setItem("tree-data", JSON.stringify(tree));
+}
+
+function loadState(): UnpackedTree {
+  try {
+    let data = JSON.parse(localStorage.getItem("tree-data"));
+
+    if (data) {
+      return data;
+    }
+    
+  }
+  catch {}
+
+  let root = nanoid();
+  return { edges: [], nodes: [{ id: root, data: { label: "Start", root: true }, position: { x: 0, y: 0 }, type: "editableNode"}], root }
+}
 
 function generate(elements: number): Node {
   let children = [];
@@ -59,7 +78,7 @@ const nodeTypes = { editableNode: EditableNode };
 const edgeTypes = { editableEdge: EditableEdge };
 
 export const EditorPage = () => {
-  const initialTree = useMemo(() => markRoot(unpackTree(generate(5))), []);
+  const initialTree = useMemo(loadState, []); //useMemo(() => markRoot(unpackTree(generate(5))), []);
 
   const [nodes, setNodes, onNodesChange] = useNodesState(initialTree.nodes);
   const [edges, setEdges, onEdgesChange] = useEdgesState(initialTree.edges);
@@ -77,7 +96,7 @@ export const EditorPage = () => {
 
   const onConnect = useCallback(
     (params) => {
-      setEdges((edges) => addEdge({ ...params, label: "Answer", markerEnd: { type: MarkerType.ArrowClosed }}, edges));
+      setEdges((edges) => addEdge({ ...params, label: "Answer", markerEnd: { type: MarkerType.ArrowClosed }, type: "editableEdge"}, edges));
       setLayout(0);
     },
     [setEdges],
@@ -95,6 +114,8 @@ export const EditorPage = () => {
     setSelectedNodes(nodes.map((node: FlowNode) => node.id));
     setSelectedEdges(edges.map((edge: FlowEdge) => edge.id));
   }, []);
+
+  useEffect(() => () => saveState({ edges, nodes, root: root.id }), [root, edges, nodes]);
 
   useEffect(() => {
     const event = (e: KeyboardEvent) => {
@@ -138,9 +159,8 @@ export const EditorPage = () => {
           return;
         }
 
-
-        setEdges((edges) => edges.filter((edge) => !selectedEdges.includes(edge.id)));
         setNodes((nodes) => nodes.filter((node) => !selectedNodes.includes(node.id))); 
+        setEdges((edges) => edges.filter((edge) => !selectedEdges.includes(edge.id)));
         setLayout(0);
       }
     };
@@ -148,6 +168,14 @@ export const EditorPage = () => {
     document.addEventListener('keyup', event);
     return () => document.removeEventListener('keyup', event);
   }, [selectedEdges, selectedNodes, updateLayout]);
+
+  useEffect(() => {
+    const filterDisconnectedEdges = (edges: FlowEdge[]): FlowEdge[] => {
+      return edges.filter(edge => [edge.source, edge.target].every(id => nodes.some(node => node.id === id)))
+    }
+
+    setEdges(filterDisconnectedEdges);
+  }, [setEdges, nodes])
 
   useEffect(() => {
     if (edges.length == 0 || nodes.length === 0 || layout > 3) {
