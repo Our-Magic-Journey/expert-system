@@ -5,6 +5,7 @@ import { EditorPage } from "./pages/editor";
 import { MainPage } from "./pages/main";
 import { QuizPage } from "./pages/quiz";
 import { ReactFlowProvider } from "@xyflow/react";
+import "./index.css";
 
 const router = createBrowserRouter([
   {
