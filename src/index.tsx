@@ -18,7 +18,7 @@ const router = createBrowserRouter([
   {
     path: "/quiz",
     element: <QuizPage />,
-  },
+  }
 ]);
 
 createRoot(document.getElementById("root")).render(

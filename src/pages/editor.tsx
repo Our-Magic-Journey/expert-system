@@ -1,12 +1,11 @@
 import { Navigation } from "../ui/navigation";
 import { Title } from "../ui/title";
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import { Node } from '../logic/node';
-import { unpackTree, FlowEdge, FlowNode, markRoot, UnpackedTree } from '../logic/unpacked';
-import { Branch } from '../logic/branch';
+import { FlowEdge, FlowNode, UnpackedTree } from '../logic/unpacked';
 import { ReactFlow, MiniMap, Controls, Background, useNodesState, useEdgesState, addEdge, reconnectEdge, Connection, MarkerType} from '@xyflow/react';
-import * as Dagre from '@dagrejs/dagre';
 import { nanoid } from "nanoid";
+import * as Dagre from '@dagrejs/dagre';
+import * as startTree from '../start-data.json';
 
 import { EditableNode } from "../ui/editor/editable-node";
 import { EditableEdge } from "../ui/editor/editable-edge";
@@ -27,8 +26,7 @@ function loadState(): UnpackedTree {
   }
   catch {}
 
-  let root = nanoid();
-  return { edges: [], nodes: [{ id: root, data: { label: "Start", root: true }, position: { x: 0, y: 0 }, type: "editableNode"}], root }
+  return startTree as UnpackedTree;
 }
 
 const getLayoutedElements = (nodes: FlowNode[], edges: FlowEdge[]) => {

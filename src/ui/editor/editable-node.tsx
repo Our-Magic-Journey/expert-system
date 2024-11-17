@@ -1,5 +1,5 @@
-import { ChangeEvent, ChangeEventHandler, KeyboardEventHandler, memo, useEffect, useRef, useState } from 'react';
-import { Handle, NodeProps, Position, useEdges, useReactFlow } from '@xyflow/react';
+import {ChangeEventHandler, KeyboardEventHandler, memo, useRef, useState } from 'react';
+import { Handle, NodeProps, Position, useReactFlow } from '@xyflow/react';
 
 type Props = {
   data: { label: string, root?: boolean },

@@ -4,6 +4,7 @@
         "jsxImportSource": "react",
         "module": "ESNext",
         "moduleResolution": "node",
+        "resolveJsonModule": true,
         "lib": ["ES2023", "DOM"]
     },
     "exclude": [

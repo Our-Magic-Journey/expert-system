@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { Node } from "../logic/node";
-import { packTree } from "../logic/unpacked";
+import {packTree, UnpackedTree} from "../logic/unpacked";
 import { Navigation } from "../ui/navigation";
 import { Title } from "../ui/title";
+import * as startTree from '../start-data.json';
 
 function loadTree(): Node {
   try {
@@ -11,17 +12,15 @@ function loadTree(): Node {
     if (data) {
       return packTree(data);
     }
-    
   }
-  catch (e){ console.log(e) }
+  catch {}
 
-  return new Node("Start");
+  return packTree(startTree as UnpackedTree);
 }
-
 
 export const QuizPage = () => {
   const [question, setQuestion] = useState(loadTree());
-  
+
   return (
     <div className="bg-black w-screen h-screen p-10 flex flex-col justify-center items-stretch">
       <Title>Quiz Page</Title>

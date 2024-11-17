@@ -1,0 +1,2123 @@
+{
+  "edges": [
+    {
+      "id": "K96uAT3rn2U9-gJH0vRWDRpkEn4X5wvZEKRX0XbPWq",
+      "source": "K96uAT3rn2U9-gJH0vRWD",
+      "target": "RpkEn4X5wvZEKRX0XbPWq",
+      "label": "Tak",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "RpkEn4X5wvZEKRX0XbPWqFzD7kgnur1s4pP-PQ1jQa",
+      "source": "RpkEn4X5wvZEKRX0XbPWq",
+      "target": "FzD7kgnur1s4pP-PQ1jQa",
+      "label": "Tak",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "K96uAT3rn2U9-gJH0vRWDNb0JtJ8tNZOGw8rmQuvJW",
+      "source": "K96uAT3rn2U9-gJH0vRWD",
+      "target": "Nb0JtJ8tNZOGw8rmQuvJW",
+      "label": "Nie",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "FzD7kgnur1s4pP-PQ1jQadHrE6EEj14hz71a--at__",
+      "source": "FzD7kgnur1s4pP-PQ1jQa",
+      "target": "dHrE6EEj14hz71a--at__",
+      "label": "Rywalizacja",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "RpkEn4X5wvZEKRX0XbPWqVufb4UxZ0lredipYBUdPf3P",
+      "source": "RpkEn4X5wvZEKRX0XbPWq",
+      "target": "Vufb4UxZ0ldipYBUdPf3P",
+      "label": "Nie",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "FzD7kgnur1s4pP-PQ1jQaQamRpeEOEFV2fJWZvVybT",
+      "source": "FzD7kgnur1s4pP-PQ1jQa",
+      "target": "QamRpeEOEFV2fJWZvVybT",
+      "label": "Współpraca",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "dHrE6EEj14hz71a--at__jP7BKUgehM-7LoklVacOu",
+      "source": "dHrE6EEj14hz71a--at__",
+      "target": "jP7BKUgehM-7LoklVacOu",
+      "label": "Tak",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "dHrE6EEj14hz71a--at__4ImMAV0x1J3ei57gigzBT",
+      "source": "dHrE6EEj14hz71a--at__",
+      "target": "4ImMAV0x1J3ei57gigzBT",
+      "label": "Nie",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "jP7BKUgehM-7LoklVacOuBeWDCP2TBsBGjhb9ArVNW",
+      "source": "jP7BKUgehM-7LoklVacOu",
+      "target": "BeWDCP2TBsBGjhb9ArVNW",
+      "label": "Nie",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "jP7BKUgehM-7LoklVacOu0xTRn8SLIV6qbnC8DUXsA",
+      "source": "jP7BKUgehM-7LoklVacOu",
+      "target": "0xTRn8SLIV6qbnC8DUXsA",
+      "label": "Tak",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "4ImMAV0x1J3ei57gigzBTHLMSyeI3SKZiNVs36BvnZ",
+      "source": "4ImMAV0x1J3ei57gigzBT",
+      "target": "HLMSyeI3SKZiNVs36BvnZ",
+      "label": "Tak",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "4ImMAV0x1J3ei57gigzBTXVM5XKhrD8h6DJevkxTxT",
+      "source": "4ImMAV0x1J3ei57gigzBT",
+      "target": "XVM5XKhrD8h6DJevkxTxT",
+      "label": "Nie",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "QamRpeEOEFV2fJWZvVybTdRO_JaqVBQn0zoEl5rR6z",
+      "source": "QamRpeEOEFV2fJWZvVybT",
+      "target": "dRO_JaqVBQn0zoEl5rR6z",
+      "label": "Nie",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "dRO_JaqVBQn0zoEl5rR6zrQQ2Mp7bw3BXfcbP6KSRC",
+      "source": "dRO_JaqVBQn0zoEl5rR6z",
+      "target": "rQQ2Mp7bw3BXfcbP6KSRC",
+      "label": "Question",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "dRO_JaqVBQn0zoEl5rR6zRfm8GKIRL_Yn8y2-lVjZz",
+      "source": "dRO_JaqVBQn0zoEl5rR6z",
+      "target": "Rfm8GKIRL_Yn8y2-lVjZz",
+      "label": "Tak",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "dRO_JaqVBQn0zoEl5rR6zqgQWfMbz9KQIF8-s8xjbo",
+      "source": "dRO_JaqVBQn0zoEl5rR6z",
+      "target": "qgQWfMbz9KQIF8-s8xjbo",
+      "label": "Nie",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "Vufb4UxZ0ldipYBUdPf3PFz7uaWuDap_irbM1otbHM",
+      "source": "Vufb4UxZ0ldipYBUdPf3P",
+      "target": "Fz7uaWuDap_irbM1otbHM",
+      "label": "Tak",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "Vufb4UxZ0ldipYBUdPf3PS8YMABcUwnYYhhFkqRzUI",
+      "source": "Vufb4UxZ0ldipYBUdPf3P",
+      "target": "S8YMABcUwnYYhhFkqRzUI",
+      "label": "Nie",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "Fz7uaWuDap_irbM1otbHMRAgovmaC51fF2QfgdvADs",
+      "source": "Fz7uaWuDap_irbM1otbHM",
+      "target": "RAgovmaC51fF2QfgdvADs",
+      "label": "Tak",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "Fz7uaWuDap_irbM1otbHMaB3sxb8PdmX6_qms4h4Ec",
+      "source": "Fz7uaWuDap_irbM1otbHM",
+      "target": "aB3sxb8PdmX6_qms4h4Ec",
+      "label": "Nie",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "RAgovmaC51fF2QfgdvADsgtjngx4PqsuLtwyjirGKD",
+      "source": "RAgovmaC51fF2QfgdvADs",
+      "target": "gtjngx4PqsuLtwyjirGKD",
+      "label": "Sci-Fi",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "RAgovmaC51fF2QfgdvADsGfb2mfBe2O6XBb9Vf6C7f",
+      "source": "RAgovmaC51fF2QfgdvADs",
+      "target": "Gfb2mfBe2O6XBb9Vf6C7f",
+      "label": "Postapo",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "aB3sxb8PdmX6_qms4h4EcAEXvHPXJ_o2Tb9izI8WoW",
+      "source": "aB3sxb8PdmX6_qms4h4Ec",
+      "target": "AEXvHPXJ_o2Tb9izI8WoW",
+      "label": "Fantasy",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "aB3sxb8PdmX6_qms4h4EcEEhYLrA9bzw3LEYbKNhFy",
+      "source": "aB3sxb8PdmX6_qms4h4Ec",
+      "target": "EEhYLrA9bzw3LEYbKNhFy",
+      "label": "Sci-Fi",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "S8YMABcUwnYYhhFkqRzUItewp-AJAd4l_oaKrKatUy",
+      "source": "S8YMABcUwnYYhhFkqRzUI",
+      "target": "tewp-AJAd4l_oaKrKatUy",
+      "label": "Tak",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "S8YMABcUwnYYhhFkqRzUIXOylUh6fZgZDo1Jau4qYe",
+      "source": "S8YMABcUwnYYhhFkqRzUI",
+      "target": "XOylUh6fZgZDo1Jau4qYe",
+      "label": "Nie",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "tewp-AJAd4l_oaKrKatUy4ULJPMp6tNbC9imj84fih",
+      "source": "tewp-AJAd4l_oaKrKatUy",
+      "target": "4ULJPMp6tNbC9imj84fih",
+      "label": "Nie",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "tewp-AJAd4l_oaKrKatUyQXFaOT3wDFInfrLsHsRyM",
+      "source": "tewp-AJAd4l_oaKrKatUy",
+      "target": "QXFaOT3wDFInfrLsHsRyM",
+      "label": "Tak",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "XOylUh6fZgZDo1Jau4qYeqRwENOy1nd9SXssgDnj_g",
+      "source": "XOylUh6fZgZDo1Jau4qYe",
+      "target": "qRwENOy1nd9SXssgDnj_g",
+      "label": "Tak",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "XOylUh6fZgZDo1Jau4qYeZ7-rGHDGbJIWR5QqwV_cc",
+      "source": "XOylUh6fZgZDo1Jau4qYe",
+      "target": "Z7-rGHDGbJIWR5QqwV_cc",
+      "label": "Nie",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "Nb0JtJ8tNZOGw8rmQuvJWlFP4fF79HOQSBJuADVb0C",
+      "source": "Nb0JtJ8tNZOGw8rmQuvJW",
+      "target": "lFP4fF79HOQSBJuADVb0C",
+      "label": "Nie",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "Nb0JtJ8tNZOGw8rmQuvJWPQGBeY8rm2ZirXIVdaJAs",
+      "source": "Nb0JtJ8tNZOGw8rmQuvJW",
+      "target": "PQGBeY8rm2ZirXIVdaJAs",
+      "label": "Tak",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "lFP4fF79HOQSBJuADVb0CBnxGDJkeE2j7sGbmmmVcW",
+      "source": "lFP4fF79HOQSBJuADVb0C",
+      "target": "BnxGDJkeE2j7sGbmmmVcW",
+      "label": "Tak",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "lFP4fF79HOQSBJuADVb0C75HmlNPVethKPlFCfYwKH",
+      "source": "lFP4fF79HOQSBJuADVb0C",
+      "target": "75HmlNPVethKPlFCfYwKH",
+      "label": "Nie",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "BnxGDJkeE2j7sGbmmmVcWA0MbHnjJZmYztti80Og9-",
+      "source": "BnxGDJkeE2j7sGbmmmVcW",
+      "target": "A0MbHnjJZmYztti80Og9-",
+      "label": "Tak",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "BnxGDJkeE2j7sGbmmmVcW5SQIIW8IpCkT4W7f9knQh",
+      "source": "BnxGDJkeE2j7sGbmmmVcW",
+      "target": "5SQIIW8IpCkT4W7f9knQh",
+      "label": "Nie",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "75HmlNPVethKPlFCfYwKHugbmkWDkLB-azLDD-VnMF",
+      "source": "75HmlNPVethKPlFCfYwKH",
+      "target": "ugbmkWDkLB-azLDD-VnMF",
+      "label": "Tak",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "75HmlNPVethKPlFCfYwKHiB7r_N1VF3xuFpXVt5k28",
+      "source": "75HmlNPVethKPlFCfYwKH",
+      "target": "iB7r_N1VF3xuFpXVt5k28",
+      "label": "Nie",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "A0MbHnjJZmYztti80Og9-EtsTNHBb_zYtM0X998WwG",
+      "source": "A0MbHnjJZmYztti80Og9-",
+      "target": "EtsTNHBb_zYtM0X998WwG",
+      "label": "Fantasy",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "A0MbHnjJZmYztti80Og9-ojH5pi00_mlE692-mr_mu",
+      "source": "A0MbHnjJZmYztti80Og9-",
+      "target": "ojH5pi00_mlE692-mr_mu",
+      "label": "Postapo",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "5SQIIW8IpCkT4W7f9knQhg8dKqHrS4q-QcgQCTwq0f",
+      "source": "5SQIIW8IpCkT4W7f9knQh",
+      "target": "g8dKqHrS4q-QcgQCTwq0f",
+      "label": "Fantasy",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "ugbmkWDkLB-azLDD-VnMFx9XToI8ArFqanf5RqIc1Q",
+      "source": "ugbmkWDkLB-azLDD-VnMF",
+      "target": "x9XToI8ArFqanf5RqIc1Q",
+      "label": "Tak",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "ugbmkWDkLB-azLDD-VnMFs_miqpSvkUwOAlpcMvnGN",
+      "source": "ugbmkWDkLB-azLDD-VnMF",
+      "target": "s_miqpSvkUwOAlpcMvnGN",
+      "label": "Nie",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "PQGBeY8rm2ZirXIVdaJAstElZDgLvui9q9jmR_k0K3",
+      "source": "PQGBeY8rm2ZirXIVdaJAs",
+      "target": "tElZDgLvui9q9jmR_k0K3",
+      "label": "Tak",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "tElZDgLvui9q9jmR_k0K3SpIeT2PwA-n-NzJNJ-PAG",
+      "source": "tElZDgLvui9q9jmR_k0K3",
+      "target": "SpIeT2PwA-n-NzJNJ-PAG",
+      "label": "Fantasy",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "tElZDgLvui9q9jmR_k0K3EcRyL-n0cdiQ6n6PUI7bK",
+      "source": "tElZDgLvui9q9jmR_k0K3",
+      "target": "EcRyL-n0cdiQ6n6PUI7bK",
+      "label": "Sci-Fi",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "SpIeT2PwA-n-NzJNJ-PAG9Ntr0kNqxKYaUUsxvU3qr",
+      "source": "SpIeT2PwA-n-NzJNJ-PAG",
+      "target": "9Ntr0kNqxKYaUUsxvU3qr",
+      "label": "Tak",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "SpIeT2PwA-n-NzJNJ-PAGevWXxB9xJyPpvw2YBqrrK",
+      "source": "SpIeT2PwA-n-NzJNJ-PAG",
+      "target": "evWXxB9xJyPpvw2YBqrrK",
+      "label": "Nie",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "EcRyL-n0cdiQ6n6PUI7bKjsNTLRIT5Wlom8RdQ_Dm3",
+      "source": "EcRyL-n0cdiQ6n6PUI7bK",
+      "target": "jsNTLRIT5Wlom8RdQ_Dm3",
+      "label": "Tak",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "PQGBeY8rm2ZirXIVdaJAsr2w5TX7I0vWd__1vd_NEd",
+      "source": "PQGBeY8rm2ZirXIVdaJAs",
+      "target": "r2w5TX7I0vWd__1vd_NEd",
+      "label": "Nie",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "r2w5TX7I0vWd__1vd_NEdvx5K4iAdsSg20sP31ivwQ",
+      "source": "r2w5TX7I0vWd__1vd_NEd",
+      "target": "vx5K4iAdsSg20sP31ivwQ",
+      "label": "Tak",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "vx5K4iAdsSg20sP31ivwQjZ2e0EpW7nv60bFb7QOAQ",
+      "source": "vx5K4iAdsSg20sP31ivwQ",
+      "target": "jZ2e0EpW7nv60bFb7QOAQ",
+      "label": "Organizację",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "vx5K4iAdsSg20sP31ivwQyeK5ibpDSRAUASrgociZl",
+      "source": "vx5K4iAdsSg20sP31ivwQ",
+      "target": "yeK5ibpDSRAUASrgociZl",
+      "label": "Miastem",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "vx5K4iAdsSg20sP31ivwQnOkJgqbZ9mX_dWxvt4amx",
+      "source": "vx5K4iAdsSg20sP31ivwQ",
+      "target": "nOkJgqbZ9mX_dWxvt4amx",
+      "label": "Państwem",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "r2w5TX7I0vWd__1vd_NEd8OyW2sdPFaTg1xPDecncF",
+      "source": "r2w5TX7I0vWd__1vd_NEd",
+      "target": "8OyW2sdPFaTg1xPDecncF",
+      "label": "Question",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge"
+    },
+    {
+      "id": "8OyW2sdPFaTg1xPDecncFWd51g2DAZWtXUXdTpHXT7",
+      "source": "8OyW2sdPFaTg1xPDecncF",
+      "target": "Wd51g2DAZWtXUXdTpHXT7",
+      "label": "Tak",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "EcRyL-n0cdiQ6n6PUI7bKoRtV3g-JJEZGVcf5GVGJQ",
+      "source": "EcRyL-n0cdiQ6n6PUI7bK",
+      "target": "oRtV3g-JJEZGVcf5GVGJQ",
+      "label": "Nie",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "jZ2e0EpW7nv60bFb7QOAQ8t9sAI9aP42ozcBUcfh2J",
+      "source": "jZ2e0EpW7nv60bFb7QOAQ",
+      "target": "8t9sAI9aP42ozcBUcfh2J",
+      "label": "ZOO",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "jZ2e0EpW7nv60bFb7QOAQ2zH8BXc_HA_3hMDc4fm6p",
+      "source": "jZ2e0EpW7nv60bFb7QOAQ",
+      "target": "2zH8BXc_HA_3hMDc4fm6p",
+      "label": "Park rozrywki",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "yeK5ibpDSRAUASrgociZlLUxO_OtlmJ241A6JQkCTT",
+      "source": "yeK5ibpDSRAUASrgociZl",
+      "target": "LUxO_OtlmJ241A6JQkCTT",
+      "label": "Starożytność",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "yeK5ibpDSRAUASrgociZlMb6KEA69Tna2s57E_BFgq",
+      "source": "yeK5ibpDSRAUASrgociZl",
+      "target": "Mb6KEA69Tna2s57E_BFgq",
+      "label": "Współczesność",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "jZ2e0EpW7nv60bFb7QOAQVnp3NxJixwbNFSALjoTnP",
+      "source": "jZ2e0EpW7nv60bFb7QOAQ",
+      "target": "Vnp3NxJixwbNFSALjoTnP",
+      "label": "Firmą transportową",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "A0MbHnjJZmYztti80Og9-y0FF2aZxMnhDUV4orDAbu",
+      "source": "A0MbHnjJZmYztti80Og9-",
+      "target": "y0FF2aZxMnhDUV4orDAbu",
+      "label": "Sci-Fi",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "5SQIIW8IpCkT4W7f9knQh1nDe_cYuqjVavvKGnBiRu",
+      "source": "5SQIIW8IpCkT4W7f9knQh",
+      "target": "1nDe_cYuqjVavvKGnBiRu",
+      "label": "Sci-Fi",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "FzD7kgnur1s4pP-PQ1jQaYCsCcz4FXcahL_6PWrlQd",
+      "source": "FzD7kgnur1s4pP-PQ1jQa",
+      "target": "YCsCcz4FXcahL_6PWrlQd",
+      "label": "Oba",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "YCsCcz4FXcahL_6PWrlQdUQNh031vDlJGpEUQ-p3VL",
+      "source": "YCsCcz4FXcahL_6PWrlQd",
+      "target": "UQNh031vDlJGpEUQ-p3VL",
+      "label": "Tak",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "YCsCcz4FXcahL_6PWrlQdKm1eOgW9kgLov5AP5KH0N",
+      "source": "YCsCcz4FXcahL_6PWrlQd",
+      "target": "Km1eOgW9kgLov5AP5KH0N",
+      "label": "Nie",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "UQNh031vDlJGpEUQ-p3VL2CDTNtVhVSl_F5KJSvppI",
+      "source": "UQNh031vDlJGpEUQ-p3VL",
+      "target": "2CDTNtVhVSl_F5KJSvppI",
+      "label": "Tak",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "UQNh031vDlJGpEUQ-p3VLl9QTBT8jiOJfdMOHBUi6T",
+      "source": "UQNh031vDlJGpEUQ-p3VL",
+      "target": "l9QTBT8jiOJfdMOHBUi6T",
+      "label": "Nie",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "Km1eOgW9kgLov5AP5KH0NDFbq_h--t_cFxnh6HjuZD",
+      "source": "Km1eOgW9kgLov5AP5KH0N",
+      "target": "DFbq_h--t_cFxnh6HjuZD",
+      "label": "Tak",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "Km1eOgW9kgLov5AP5KH0NuclBurbbx0Gh5e4wAuMfw",
+      "source": "Km1eOgW9kgLov5AP5KH0N",
+      "target": "uclBurbbx0Gh5e4wAuMfw",
+      "label": "Nie",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "QamRpeEOEFV2fJWZvVybTpq_G1-VgWkHb3V6GpaY14",
+      "source": "QamRpeEOEFV2fJWZvVybT",
+      "target": "pq_G1-VgWkHb3V6GpaY14",
+      "label": "Tak",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "pq_G1-VgWkHb3V6GpaY14u2wxEYq_uDVIZrb2roM6T",
+      "source": "pq_G1-VgWkHb3V6GpaY14",
+      "target": "u2wxEYq_uDVIZrb2roM6T",
+      "label": "2D",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "pq_G1-VgWkHb3V6GpaY14xWDf_2Ngjnqfn7CHO7LPH",
+      "source": "pq_G1-VgWkHb3V6GpaY14",
+      "target": "xWDf_2Ngjnqfn7CHO7LPH",
+      "label": "3D",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    },
+    {
+      "id": "8OyW2sdPFaTg1xPDecncFzeq4I5SGLKuxIIX3CVuxo",
+      "source": "8OyW2sdPFaTg1xPDecncF",
+      "target": "zeq4I5SGLKuxIIX3CVuxo",
+      "label": "Nie",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "type": "editableEdge",
+      "selected": false
+    }
+  ],
+  "nodes": [
+    {
+      "id": "K96uAT3rn2U9-gJH0vRWD",
+      "data": {
+        "label": "Czy lubisz gry z szybkim tempem akcji?",
+        "root": true
+      },
+      "position": {
+        "x": 4200,
+        "y": 0
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 50
+      },
+      "selected": false
+    },
+    {
+      "id": "RpkEn4X5wvZEKRX0XbPWq",
+      "data": {
+        "label": "Czy lubisz grać z innymi osobami?",
+        "edit": true
+      },
+      "position": {
+        "x": 2000,
+        "y": 100
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 50
+      },
+      "selected": false
+    },
+    {
+      "id": "FzD7kgnur1s4pP-PQ1jQa",
+      "data": {
+        "label": "Wolisz rywalizować czy współpracować?",
+        "edit": true
+      },
+      "position": {
+        "x": 1200,
+        "y": 200
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 50
+      },
+      "selected": false
+    },
+    {
+      "id": "Nb0JtJ8tNZOGw8rmQuvJW",
+      "data": {
+        "label": "Czy lubisz gry strategiczne?",
+        "edit": true
+      },
+      "position": {
+        "x": 5900,
+        "y": 100
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 50
+      },
+      "selected": false
+    },
+    {
+      "id": "dHrE6EEj14hz71a--at__",
+      "data": {
+        "label": "Czy lubisz strzelać?",
+        "edit": true
+      },
+      "position": {
+        "x": 200,
+        "y": 308
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "Vufb4UxZ0ldipYBUdPf3P",
+      "data": {
+        "label": "Czy lubisz gry fabularne?",
+        "edit": true
+      },
+      "position": {
+        "x": 2800,
+        "y": 208
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "QamRpeEOEFV2fJWZvVybT",
+      "data": {
+        "label": "Czy lubisz gry survivalowe?",
+        "edit": true
+      },
+      "position": {
+        "x": 1200,
+        "y": 300
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 50
+      },
+      "selected": false
+    },
+    {
+      "id": "jP7BKUgehM-7LoklVacOu",
+      "data": {
+        "label": "Czy lubisz zmechanizowane pojazdy?",
+        "edit": true
+      },
+      "position": {
+        "x": 0,
+        "y": 400
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 66
+      },
+      "selected": false
+    },
+    {
+      "id": "4ImMAV0x1J3ei57gigzBT",
+      "data": {
+        "label": "Czy lubisz gry wyścigowe?",
+        "edit": true
+      },
+      "position": {
+        "x": 400,
+        "y": 408
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 50
+      },
+      "selected": false
+    },
+    {
+      "id": "BeWDCP2TBsBGjhb9ArVNW",
+      "data": {
+        "label": "Isonzo",
+        "edit": true
+      },
+      "position": {
+        "x": 0,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "0xTRn8SLIV6qbnC8DUXsA",
+      "data": {
+        "label": "War Thunder",
+        "edit": true
+      },
+      "position": {
+        "x": 200,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "HLMSyeI3SKZiNVs36BvnZ",
+      "data": {
+        "label": "Grand Turismo",
+        "edit": true
+      },
+      "position": {
+        "x": 400,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "XVM5XKhrD8h6DJevkxTxT",
+      "data": {
+        "label": "Fall Guys",
+        "edit": true
+      },
+      "position": {
+        "x": 600,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "dRO_JaqVBQn0zoEl5rR6z",
+      "data": {
+        "label": "Czy lubisz strzelać?",
+        "edit": true
+      },
+      "position": {
+        "x": 900,
+        "y": 416
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "rQQ2Mp7bw3BXfcbP6KSRC",
+      "data": {
+        "label": "Answer",
+        "edit": true
+      },
+      "position": {
+        "x": 800,
+        "y": 524
+      },
+      "type": "editableNode",
+      "selected": false,
+      "measured": {
+        "width": 150,
+        "height": 34
+      }
+    },
+    {
+      "id": "Rfm8GKIRL_Yn8y2-lVjZz",
+      "data": {
+        "label": "Helldivers 2",
+        "edit": true
+      },
+      "position": {
+        "x": 1000,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "qgQWfMbz9KQIF8-s8xjbo",
+      "data": {
+        "label": "Ogień i Woda 5: Żywioły",
+        "edit": true
+      },
+      "position": {
+        "x": 1200,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "Fz7uaWuDap_irbM1otbHM",
+      "data": {
+        "label": "Czy lubisz strzelać?",
+        "edit": true
+      },
+      "position": {
+        "x": 2800,
+        "y": 308
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "S8YMABcUwnYYhhFkqRzUI",
+      "data": {
+        "label": "Czy lubisz rozwijać postać?",
+        "edit": true
+      },
+      "position": {
+        "x": 3600,
+        "y": 300
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 50
+      },
+      "selected": false
+    },
+    {
+      "id": "RAgovmaC51fF2QfgdvADs",
+      "data": {
+        "label": "Jaki klimat gry wolisz?",
+        "edit": true
+      },
+      "position": {
+        "x": 2600,
+        "y": 416
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "aB3sxb8PdmX6_qms4h4Ec",
+      "data": {
+        "label": "Jaki klimat gry wolisz?",
+        "edit": true
+      },
+      "position": {
+        "x": 3000,
+        "y": 416
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "gtjngx4PqsuLtwyjirGKD",
+      "data": {
+        "label": "Starfield",
+        "edit": true
+      },
+      "position": {
+        "x": 2600,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "Gfb2mfBe2O6XBb9Vf6C7f",
+      "data": {
+        "label": "Metro 2033 Redux",
+        "edit": true
+      },
+      "position": {
+        "x": 2800,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "AEXvHPXJ_o2Tb9izI8WoW",
+      "data": {
+        "label": "Gothic",
+        "edit": true
+      },
+      "position": {
+        "x": 3000,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "EEhYLrA9bzw3LEYbKNhFy",
+      "data": {
+        "label": "X3",
+        "edit": true
+      },
+      "position": {
+        "x": 3200,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "tewp-AJAd4l_oaKrKatUy",
+      "data": {
+        "label": "Czy lubisz gry roguelike?",
+        "edit": true
+      },
+      "position": {
+        "x": 3400,
+        "y": 416
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "XOylUh6fZgZDo1Jau4qYe",
+      "data": {
+        "label": "Czy lubisz eksplorować?",
+        "edit": true
+      },
+      "position": {
+        "x": 3800,
+        "y": 416
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "4ULJPMp6tNbC9imj84fih",
+      "data": {
+        "label": "Path of Exile",
+        "edit": true
+      },
+      "position": {
+        "x": 3400,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "QXFaOT3wDFInfrLsHsRyM",
+      "data": {
+        "label": "Dark and Darker",
+        "edit": true
+      },
+      "position": {
+        "x": 3600,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "qRwENOy1nd9SXssgDnj_g",
+      "data": {
+        "label": "Sabnautica",
+        "edit": true
+      },
+      "position": {
+        "x": 3800,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "Z7-rGHDGbJIWR5QqwV_cc",
+      "data": {
+        "label": "Goat Simulator",
+        "edit": true
+      },
+      "position": {
+        "x": 4000,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "lFP4fF79HOQSBJuADVb0C",
+      "data": {
+        "label": "Czy lubisz gry fabularne?",
+        "edit": true
+      },
+      "position": {
+        "x": 4900,
+        "y": 208
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "PQGBeY8rm2ZirXIVdaJAs",
+      "data": {
+        "label": "Czy fabuła jest dla Ciebie ważna?",
+        "edit": true
+      },
+      "position": {
+        "x": 6500,
+        "y": 200
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 50
+      },
+      "selected": false
+    },
+    {
+      "id": "BnxGDJkeE2j7sGbmmmVcW",
+      "data": {
+        "label": "Czy lubisz gry turowe?",
+        "edit": true
+      },
+      "position": {
+        "x": 4600,
+        "y": 308
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "75HmlNPVethKPlFCfYwKH",
+      "data": {
+        "label": "Czy lubisz gry logiczne?",
+        "edit": true
+      },
+      "position": {
+        "x": 5300,
+        "y": 308
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "A0MbHnjJZmYztti80Og9-",
+      "data": {
+        "label": "Jaki wolisz klimat gry?",
+        "edit": true
+      },
+      "position": {
+        "x": 4300,
+        "y": 416
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "5SQIIW8IpCkT4W7f9knQh",
+      "data": {
+        "label": "Jaki wolisz klimat gry?",
+        "edit": true
+      },
+      "position": {
+        "x": 4800,
+        "y": 416
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "ugbmkWDkLB-azLDD-VnMF",
+      "data": {
+        "label": "Czy lubisz powtarzalność?",
+        "edit": true
+      },
+      "position": {
+        "x": 5200,
+        "y": 408
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 50
+      },
+      "selected": false
+    },
+    {
+      "id": "iB7r_N1VF3xuFpXVt5k28",
+      "data": {
+        "label": "Minecraft",
+        "edit": true
+      },
+      "position": {
+        "x": 5400,
+        "y": 416
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "EtsTNHBb_zYtM0X998WwG",
+      "data": {
+        "label": "Baldur's Gate 3",
+        "edit": true
+      },
+      "position": {
+        "x": 4200,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "ojH5pi00_mlE692-mr_mu",
+      "data": {
+        "label": "Disco Elysium",
+        "edit": true
+      },
+      "position": {
+        "x": 4400,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "g8dKqHrS4q-QcgQCTwq0f",
+      "data": {
+        "label": "Neverwinter Night",
+        "edit": true
+      },
+      "position": {
+        "x": 4800,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "x9XToI8ArFqanf5RqIc1Q",
+      "data": {
+        "label": "Tetris",
+        "edit": true
+      },
+      "position": {
+        "x": 5200,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "s_miqpSvkUwOAlpcMvnGN",
+      "data": {
+        "label": "Portal",
+        "edit": true
+      },
+      "position": {
+        "x": 5400,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "tElZDgLvui9q9jmR_k0K3",
+      "data": {
+        "label": "Jaki klimat ci odpowiada?",
+        "edit": true
+      },
+      "position": {
+        "x": 5800,
+        "y": 300
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 50
+      },
+      "selected": false
+    },
+    {
+      "id": "SpIeT2PwA-n-NzJNJ-PAG",
+      "data": {
+        "label": "Lubisz gry turowe?",
+        "edit": true
+      },
+      "position": {
+        "x": 5600,
+        "y": 416
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "EcRyL-n0cdiQ6n6PUI7bK",
+      "data": {
+        "label": "Czy lubisz gry turowe?",
+        "edit": true
+      },
+      "position": {
+        "x": 6000,
+        "y": 416
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "9Ntr0kNqxKYaUUsxvU3qr",
+      "data": {
+        "label": "Total War: Warhammer 3",
+        "edit": true
+      },
+      "position": {
+        "x": 5600,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "evWXxB9xJyPpvw2YBqrrK",
+      "data": {
+        "label": "Torn",
+        "edit": true
+      },
+      "position": {
+        "x": 5800,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "jsNTLRIT5Wlom8RdQ_Dm3",
+      "data": {
+        "label": "X-COM",
+        "edit": true
+      },
+      "position": {
+        "x": 6000,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "r2w5TX7I0vWd__1vd_NEd",
+      "data": {
+        "label": "Czy lubisz zarządzać?",
+        "edit": true
+      },
+      "position": {
+        "x": 7100,
+        "y": 308
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "vx5K4iAdsSg20sP31ivwQ",
+      "data": {
+        "label": "Jaki rodzaj zarządzania cie interesuje?",
+        "edit": true
+      },
+      "position": {
+        "x": 6800,
+        "y": 408
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 50
+      },
+      "selected": false
+    },
+    {
+      "id": "jZ2e0EpW7nv60bFb7QOAQ",
+      "data": {
+        "label": "Jaką organizacją chcesz zarządzać?",
+        "edit": true
+      },
+      "position": {
+        "x": 6400,
+        "y": 516
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 50
+      },
+      "selected": false
+    },
+    {
+      "id": "yeK5ibpDSRAUASrgociZl",
+      "data": {
+        "label": "Jakie czasy Cie interesują?",
+        "edit": true
+      },
+      "position": {
+        "x": 6800,
+        "y": 516
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 50
+      },
+      "selected": false
+    },
+    {
+      "id": "nOkJgqbZ9mX_dWxvt4amx",
+      "data": {
+        "label": "Europa Universalis IV",
+        "edit": true
+      },
+      "position": {
+        "x": 7000,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "8OyW2sdPFaTg1xPDecncF",
+      "data": {
+        "label": "Czy lubisz gry karciane?",
+        "edit": true
+      },
+      "position": {
+        "x": 7400,
+        "y": 416
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "Wd51g2DAZWtXUXdTpHXT7",
+      "data": {
+        "label": "Pasjans",
+        "edit": true
+      },
+      "position": {
+        "x": 7200,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "oRtV3g-JJEZGVcf5GVGJQ",
+      "data": {
+        "label": "Cosmoteer",
+        "edit": true
+      },
+      "position": {
+        "x": 6200,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "8t9sAI9aP42ozcBUcfh2J",
+      "data": {
+        "label": "Zoo Tycoon",
+        "edit": true
+      },
+      "position": {
+        "x": 6100,
+        "y": 616
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "2zH8BXc_HA_3hMDc4fm6p",
+      "data": {
+        "label": "Rollercoaster Tycoon",
+        "edit": true
+      },
+      "position": {
+        "x": 6300,
+        "y": 616
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "LUxO_OtlmJ241A6JQkCTT",
+      "data": {
+        "label": "Faraon",
+        "edit": true
+      },
+      "position": {
+        "x": 6700,
+        "y": 616
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "Mb6KEA69Tna2s57E_BFgq",
+      "data": {
+        "label": "SimCity",
+        "edit": true
+      },
+      "position": {
+        "x": 6900,
+        "y": 616
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "Vnp3NxJixwbNFSALjoTnP",
+      "data": {
+        "label": "Transport Tycoon",
+        "edit": true
+      },
+      "position": {
+        "x": 6500,
+        "y": 616
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "y0FF2aZxMnhDUV4orDAbu",
+      "data": {
+        "label": "Warhammer 40K: Rogue Trade",
+        "edit": true
+      },
+      "position": {
+        "x": 4600,
+        "y": 516
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 50
+      },
+      "selected": false
+    },
+    {
+      "id": "1nDe_cYuqjVavvKGnBiRu",
+      "data": {
+        "label": "Star Wars: Knights of the Old Republic",
+        "edit": true
+      },
+      "position": {
+        "x": 5000,
+        "y": 516
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 50
+      },
+      "selected": false
+    },
+    {
+      "id": "YCsCcz4FXcahL_6PWrlQd",
+      "data": {
+        "label": "Czy lubisz strzelać?",
+        "edit": true
+      },
+      "position": {
+        "x": 2000,
+        "y": 308
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "UQNh031vDlJGpEUQ-p3VL",
+      "data": {
+        "label": "Czy lubisz survival?",
+        "edit": true
+      },
+      "position": {
+        "x": 1800,
+        "y": 416
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "Km1eOgW9kgLov5AP5KH0N",
+      "data": {
+        "label": "Czy lubisz gry z dużą ilością graczy?",
+        "edit": true
+      },
+      "position": {
+        "x": 2200,
+        "y": 408
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 50
+      },
+      "selected": false
+    },
+    {
+      "id": "2CDTNtVhVSl_F5KJSvppI",
+      "data": {
+        "label": "Rust",
+        "edit": true
+      },
+      "position": {
+        "x": 1800,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "l9QTBT8jiOJfdMOHBUi6T",
+      "data": {
+        "label": "Valorant",
+        "edit": true
+      },
+      "position": {
+        "x": 2000,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "DFbq_h--t_cFxnh6HjuZD",
+      "data": {
+        "label": "World of Warcraft",
+        "edit": true
+      },
+      "position": {
+        "x": 2200,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "uclBurbbx0Gh5e4wAuMfw",
+      "data": {
+        "label": "New World",
+        "edit": true
+      },
+      "position": {
+        "x": 2400,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "pq_G1-VgWkHb3V6GpaY14",
+      "data": {
+        "label": "Jaką perspektywe lubisz?",
+        "edit": true
+      },
+      "position": {
+        "x": 1400,
+        "y": 416
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "u2wxEYq_uDVIZrb2roM6T",
+      "data": {
+        "label": "Don't Starve Together",
+        "edit": true
+      },
+      "position": {
+        "x": 1400,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "xWDf_2Ngjnqfn7CHO7LPH",
+      "data": {
+        "label": "Valheim",
+        "edit": true
+      },
+      "position": {
+        "x": 1600,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    },
+    {
+      "id": "zeq4I5SGLKuxIIX3CVuxo",
+      "data": {
+        "label": "Euro Truck Simulator ",
+        "edit": true
+      },
+      "position": {
+        "x": 7400,
+        "y": 524
+      },
+      "type": "editableNode",
+      "measured": {
+        "width": 150,
+        "height": 34
+      },
+      "selected": false
+    }
+  ],
+  "root": "K96uAT3rn2U9-gJH0vRWD"
+}

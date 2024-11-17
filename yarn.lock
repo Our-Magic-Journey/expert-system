@@ -1367,7 +1367,6 @@ __metadata:
     react-to-text: "npm:^2.0.1"
     tailwindcss: "npm:^3.4.14"
     vite: "npm:^5.4.10"
-    vite-plugin-electron: "npm:^0.28.8"
   languageName: unknown
   linkType: soft
 
@@ -2690,18 +2689,6 @@ __metadata:
   version: 1.0.2
   resolution: "util-deprecate@npm:1.0.2"
   checksum: 10c0/41a5bdd214df2f6c3ecf8622745e4a366c4adced864bc3c833739791aeeeb1838119af7daed4ba36428114b5c67dcda034a79c882e97e43c03e66a4dd7389942
-  languageName: node
-  linkType: hard
-
-"vite-plugin-electron@npm:^0.28.8":
-  version: 0.28.8
-  resolution: "vite-plugin-electron@npm:0.28.8"
-  peerDependencies:
-    vite-plugin-electron-renderer: "*"
-  peerDependenciesMeta:
-    vite-plugin-electron-renderer:
-      optional: true
-  checksum: 10c0/a7fda7800232f1930cf4f0d060cc618b12416778ef184425db68471d26014cd8631bc5fd60908b1946be17321d06647cc06351332b9d3f7a4a7e910de1a28325
   languageName: node
   linkType: hard
 
